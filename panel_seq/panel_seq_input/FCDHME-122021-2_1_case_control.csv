@@ -1,0 +1,96 @@
+﻿Neu_0859_A,A1,Hot Electrode,PTA,1
+Neu_0859_P,B1,Hot Electrode,PTA,1
+Neu_0859_N,C1,Cold Electrode,PTA,2
+Neu_0859_TiA,D1,Bulk Brain,gDNA,3
+Neu_0859_Z,E1,Blood,gDNA,4
+Neu_0500_B,F1,Hot Electrode,PTA,1
+Neu_0500_D,G1,Hot Electrode,PTA,1
+Neu_0500_H,H1,Hot Electrode,PTA,1
+Neu_0500_I,A2,Cold Electrode,PTA,2
+Neu_0861_A,B2,Hot Electrode,PTA,1
+Neu_0861_F,C2,Hot Electrode,PTA,1
+Neu_0861_J,D2,Hot Electrode,PTA,1
+Neu_0861_N,E2,Hot Electrode,PTA,1
+Neu_0861_O,F2,Cold Electrode,PTA,2
+Neu_0861_Z,G2,Blood,gDNA,4
+Neu_0863_C,H2,Hot Electrode,PTA,1
+Neu_0863_D,A3,Hot Electrode,PTA,1
+Neu_0863_F,B3,Hot Electrode,PTA,1
+Neu_0863_I,C3,Hot Electrode,PTA,1
+Neu_0863_K,D3,Hot Electrode,PTA,1
+Neu_0863_H,E3,Cold Electrode,PTA,2
+Neu_0863_TiA,F3,Bulk Brain- matched to electrode F,gDNA,3
+Neu_0863_TiB,G3,Bulk Brain- matched to electrode F,gDNA,3
+Neu_0863_TiC,H3,Bulk Brain- matched to electrode D,gDNA,3
+Neu_0863_TiD,A4,Bulk Brain- matched to electrode D,gDNA,3
+Neu_0863_TiE,B4,Bulk Brain- matched to electrode D,gDNA,3
+Neu_0863_TiF,C4,Bulk Brain- matched to electrode D,gDNA,3
+Neu_0863_TiG,D4,Bulk Brain- matched to electrode K,gDNA,3
+Neu_0863_TiH,E4,Bulk Brain- matched to electrode K,gDNA,3
+Neu_0863_TiI,F4,Bulk Brain- matched to electrode C,gDNA,3
+Neu_0863_TiJ,G4,Bulk Brain- matched to electrode C,gDNA,3
+Neu_0863_TiL,H4,Bulk Brain- matched to electrode H,gDNA,3
+Neu_0863_TiM,A5,Bulk Brain- matched to electrode H,gDNA,3
+Neu_0863_TiN,B5,Bulk Brain- matched to electrode H,gDNA,3
+Neu_0863_TiO,C5,Bulk Brain- matched to electrode I,gDNA,3
+Neu_0863_TiP,D5,Bulk Brain- matched to electrode I,gDNA,3
+Neu_0864_B,E5,Hot Electrode,PTA,1
+Neu_0864_C,F5,Hot Electrode,PTA,1
+Neu_0864_E,G5,Hot Electrode,PTA,1
+Neu_0864_F,H5,Hot Electrode,PTA,1
+Neu_0864_H,A6,Hot Electrode,PTA,1
+Neu_0864_P,B6,Hot Electrode,PTA,1
+Neu_0864_M,C6,Cold electrode,PTA,2
+Neu_0864_O,D6,Cold electrode,PTA,2
+Neu_0864_Z,E6,Blood,gDNA,4
+Neu_0868_L,F6,Hot Electrode,PTA,1
+Neu_0868_R,G6,Hot Electrode,PTA,1
+Neu_0868_Y,H6,Hot Electrode,PTA,1
+Neu_0868_A,A7,Cold Electrode,PTA,2
+Neu_0869_A,B7,Hot Electrode,PTA,1
+Neu_0869_E,C7,Hot Electrode,PTA,1
+Neu_0869_K,D7,Hot Electrode,PTA,1
+Neu_0869_N,E7,Hot Electrode,PTA,1
+Neu_0869_O,F7,Hot Electrode,PTA,1
+Neu_0869_P,G7,Hot Electrode,PTA,1
+Neu_0869_G,H7,Cold Electrode,PTA,2
+Neu_0869_J,A8,Cold Electrode,PTA,2
+Neu_0869_TiC,B8,Bulk Brain- matched to electrode A,gDNA,3
+Neu_0869_TiD,C8,Bulk Brain- matched to electrode O,gDNA,3
+Neu_0869_TiE,D8,Bulk Brain- matched to electrode E,gDNA,3
+Neu_0869_TiF,E8,Bulk Brain- matched to electrode N,gDNA,3
+Neu_0869_TiG,F8,Bulk Brain- matched to electrode K,gDNA,3
+Neu_0869_Z,G8,Blood,gDNA,4
+Neu_0476_F,H8,Hot Electrode,PTA,1
+Neu_0476_I,A9,Hot Electrode,PTA,1
+Neu_0476_L,B9,Hot Electrode,PTA,1
+Neu_0476_T,C9,Hot Electrode,PTA,1
+Neu_0476_U,D9,Hot Electrode,PTA,1
+Neu_0476_V,E9,Hot Electrode,PTA,1
+Neu_0476_A,F9,Cold Electrode,PTA,2
+Neu_0476_B,G9,Cold Electrode,PTA,2
+Neu_0476_K,H9,Cold Electrode,PTA,2
+Neu_0476_N,A10,Cold Electrode,PTA,2
+Neu_0476_P,B10,Cold Electrode,PTA,2
+Neu_0476_EZ_K,C10,Cold Electrode,gDNA,2
+Neu_0476_EZ_T,D10,Hot Electrode,gDNA,1
+Neu_0476_TiA,E10,Bulk Brain- matchd to RT2,gDNA,3
+Neu_0476_TiC,F10,Bulk Brain,gDNA,3
+Neu_0476_TiD,G10,Bulk Brain,gDNA,3
+Neu_0476_TiM,H10,Bulk Brain,gDNA,3
+Neu_0476_Z,A11,Blood,gDNA,4
+Neu_0871_I,B11,Hot Electrode,PTA,1
+Neu_0871_J,C11,Hot Electrode,PTA,1
+Neu_0871_C,D11,Cold Electrode,PTA,2
+Neu_0871_K,E11,Cold Electrode,PTA,2
+Neu_0871_Z,F11,Blood,gDNA,4
+Neu_0873_G,G11,Hot Electrode,PTA,1
+Neu_0873_H,H11,Hot Electrode,PTA,1
+Neu_0873_I,A12,Cold Electrode,PTA,2
+Neu_0873_Z,B12,Blood,gDNA,4
+Neu_0872_I,C12,Hot Electrode,PTA,1
+Neu_0872_N,D12,Hot Electrode,PTA,1
+Neu_0872_O,E12,Hot Electrode,PTA,1
+Neu_0872_B,F12,Cold Electrode,PTA,2
+Neu_0872_K,G12,Cold Electrode,PTA,2
+Neu_0872_Z,H12,Blood,gDNA,4
