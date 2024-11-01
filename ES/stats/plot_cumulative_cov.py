@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 
-count_df_dir = "/n/groups/walsh/indData/elain/DeepWES4_7/final/"
+count_df_dir = ".../DeepWES4_7/final/"
 barcode_list = ["0863_Ti-G", "0859_Ti-A", "0859_A_", "0863_K", "0864_F", "0861_N_", "0868_R", "0871_J", "0500_B_", "0873_H"]
 # to map the electrode list to patient ID
 barcode_sample_dict = {"0863_Ti-G":'Patient 4 (UA)', "0859_Ti-A":'Patient 1 (UA)', "0859_A_":'Patient 1 (A)', 
