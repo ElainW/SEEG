@@ -1,6 +1,5 @@
 #!/bin/bash
 module load gcc/6.2.0 bedtools/2.27.1 python/3.7.4
-source ~/yw222PythonFolder/python_bam/bin/activate
 
 PREFIX=$1
 BED_INT=$2
