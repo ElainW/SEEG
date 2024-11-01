@@ -1,12 +1,11 @@
 #!/bin/bash
-#module load gcc/6.2.0 samtools/0.1.19 bwa/0.7.15 bedtools/2.27.1 java/jdk-1.8u112 R/4.0.1
-REFERENCE_DIR=/home/yh174/reference
-TOOLS_DIR=/home/yh174/tools
-TEMP_DIR=/home/yw222/temp
-ROOT=/n/groups/walsh/indData/elain
-SCRIPT_DIR=$ROOT/scripts/variant_calling
-#INPUT_DIR=/n/data1/bch/genetics/lee/August/AD_clonal/cancer_panel
-INPUT_DIR=$ROOT/scripts/panel_seq_input
+
+REFERENCE_DIR=...
+TOOLS_DIR=../tools
+TEMP_DIR=...
+ROOT=...
+SCRIPT_DIR=../panel_seq/variant_calling
+INPUT_DIR=../panel_seq/panel_seq_input
 #FASTQ_DIR=$ROOT/30-699833257/00_fastq
 export PATH="$SCRIPT_DIR/:$TOOLS_DIR/:$PATH"
 

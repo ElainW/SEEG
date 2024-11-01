@@ -2,10 +2,9 @@
 # same thing as run_two_step.sh but now using subsampled tissue samples for the sample-based filtering
 # with different output directories
 module load gcc/6.2.0 python/3.7.4 bcftools/1.13
-#TOOLS_DIR=/home/yh174/tools
-#export PATH="$TOOLS_DIR/:$PATH"
+
 BARCODE_LIST=("subsampled_0863_Ti-G" "subsampled_0859_Ti-A" "0859_A_" "0863_K" "0864_F" "0861_N_" "0868_R" "0871_J" "0500_B_" "0873_H")
-INDIR=/n/groups/walsh/indData/elain/DeepWES4_7/MH_2step_out
+INDIR=$ROOT/DeepWES4_7/MH_2step_out
 OUTDIR=$INDIR/filtered_MH_Ti_subsampled
 mkdir -p $OUTDIR
 printf "" > $OUTDIR/raw.MH.tsv

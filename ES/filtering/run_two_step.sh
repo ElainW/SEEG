@@ -1,9 +1,8 @@
 #!/bin/bash
 module load gcc/6.2.0 python/3.7.4 bcftools/1.13
-#TOOLS_DIR=/home/yh174/tools
-#export PATH="$TOOLS_DIR/:$PATH"
+
 BARCODE_LIST=("0863_Ti-G" "0859_Ti-A" "0859_A_" "0863_K" "0864_F" "0861_N_" "0868_R" "0871_J" "0500_B_" "0873_H")
-INDIR=/n/groups/walsh/indData/elain/DeepWES4_7/MH_2step_out
+INDIR=$ROOT/DeepWES4_7/MH_2step_out
 mkdir -p $INDIR/filtered_MH
 printf "" > $INDIR/filtered_MH/raw.MH.tsv
 for BARCODE_ID in ${BARCODE_LIST[@]}; do

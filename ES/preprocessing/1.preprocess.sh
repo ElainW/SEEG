@@ -1,8 +1,8 @@
 #!/bin/bash
 module load gcc/6.2.0 java/jdk-1.8u112 bwa/0.7.15 samtools/0.1.19
 
-folder=/n/groups/walsh/indData/elain/DeepWES4_7
-interval=/n/groups/walsh/indData/elain/DeepWES4_7/S33266340_hs_hg19/S33266340_Regions.nochr.bed # exome targeted regions
+folder=$ROOT/DeepWES4_7
+interval=S33266340_Regions.nochr.bed # exome targeted regions
 tmp_dir=$folder/tmp
 mkdir -p $tmp_dir
 mkdir -p $tmp_dir/raw_bams
@@ -13,14 +13,14 @@ mkdir -p $folder/final
 
 sample_id_list=./sample_id.txt
 
-ENV0="-p medium -t 1-00:00 -c 1 --mem=1G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
-ENV1="-p medium -t 1-00:00 -c 12 --mem=10G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
-ENV2="-p medium -t 1-00:00 -c 1 --mem=5G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
-ENV3="-p short -t 0-12:00 -c 1 --mem=32G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
-ENV4="-p short -t 0-12:00 -c 1 --mem=16G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
-ENV5="-p short -t 0-12:00 -c 4 --mem=8G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
-ENV6="-p medium -t 5-00:00 -c 1 --mem=8G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
-ENV7="-p short -t 0-12:00 -c 1 --mem=8G --mail-type=END,FAIL --mail-user=yilanwang@g.harvard.edu"
+ENV0="-p medium -t 1-00:00 -c 1 --mem=1G --mail-type=END,FAIL --mail-user=..."
+ENV1="-p medium -t 1-00:00 -c 12 --mem=10G --mail-type=END,FAIL --mail-user=..."
+ENV2="-p medium -t 1-00:00 -c 1 --mem=5G --mail-type=END,FAIL --mail-user=..."
+ENV3="-p short -t 0-12:00 -c 1 --mem=32G --mail-type=END,FAIL --mail-user=..."
+ENV4="-p short -t 0-12:00 -c 1 --mem=16G --mail-type=END,FAIL --mail-user=..."
+ENV5="-p short -t 0-12:00 -c 4 --mem=8G --mail-type=END,FAIL --mail-user=..."
+ENV6="-p medium -t 5-00:00 -c 1 --mem=8G --mail-type=END,FAIL --mail-user=..."
+ENV7="-p short -t 0-12:00 -c 1 --mem=8G --mail-type=END,FAIL --mail-user=..."
 
 while read LINE; do
 	prefix=$LINE
