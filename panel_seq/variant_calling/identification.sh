@@ -1,12 +1,11 @@
 #!/bin/bash
-REFERENCE_DIR=/home/yh174/reference
-TOOLS_DIR=/home/yh174/tools
-TEMP_DIR=/home/yw222/temp
-ROOT=/n/groups/walsh/indData/elain
-SCRIPT_DIR=$ROOT/scripts/variant_calling
-#INPUT_DIR=/n/data1/bch/genetics/lee/August/AD_clonal/cancer_panel
-INPUT_DIR=$ROOT/scripts/panel_seq_input
-FASTQ_DIR=$ROOT/TargetedPanelwithWes
+REFERENCE_DIR=...
+TOOLS_DIR=../../tools
+TEMP_DIR=...
+ROOT=...
+SCRIPT_DIR=.
+INPUT_DIR=../panel_seq_input
+FASTQ_DIR=...
 OUTPUT_DIR=$ROOT/panel_seq_output
 export PATH="$TOOLS_DIR/:$SCRIPT_DIR/:$TOOLS_DIR/Pisces-5.3/:$PATH"
 cd $OUTPUT_DIR
